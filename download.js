@@ -6,7 +6,7 @@ if (navigator.userAgent.indexOf("Windows") != -1) {
     os = "linux";
 }
 
-fetch('https://api.github.com/repos/jaydendev/catalyst/releases/latest')
+fetch('https://api.github.com/repos/redstone-scratch/platinum/releases/latest')
     .then(res => res.json())
     .then(res => {
         const version = document.getElementById('version-title');
